@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 250px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h1{
+    color: #f1f1f1;
+}
+
+.nav-left ul {
+    display: flex;
+    margin-left: 15px;
+}
+
+li{
+    margin: 0px 15px;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.nav-right{
+    height: 30px;
+    width: 100px;
+    background-color: #34A2B8;
+    color: #f1f1f1;
+    border: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: gray;
+}
+
+.nav-right:hover {
+    color: gray;
+} /* Question: Why does hover not work if I'm using it for all <a> tags? Why do I have to specify the tag that I'm trying to use it for? */
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    height: 900px;
+    width: 50%;
+    position: relative;
+}
+
+.right-col {
+    height: 900px;
+    width: 50%;
+    position: relative;
+}
+
+/* ***LEFT COL*** */
+#card {
+    font-family: 'Balsamiq Sans', cursive;
+    width: 400px;
+    height: 350px;
+    border: 4px solid #cccccc;;
+    background-color: #fff;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+#edu {
+    font-family: 'Balsamiq Sans', cursive;
+    width: 400px;
+    height: 200px;
+    border: 4px solid #cccccc;;
+    background-color: #fff;
+
+    position: absolute;
+    right: 60px;
+    top: 400px;
+}
+
+/* ***RIGHT COL*** */
+#connection-requests{
+    font-family: 'Balsamiq Sans', cursive;
+    width: 300px;
+    height: 170px;
+    border: 4px solid #cccccc;;
+    background-color: #fff;
+    justify-content: flex-e;
+    position: absolute; 
+    top: 20px;
+    left: 165px;
+}
+#your-connections{
+    font-family: 'Balsamiq Sans', cursive;
+    width: 300px;
+    height: 270px;
+    border: 4px solid #cccccc;;
+    background-color: #fff;
+    /* justify-content: flex-e; */
+    position: absolute; 
+    top: 250px;
+    left: 165px;
+}
+
+.header {
+    margin: 0px;
+    background-color: #17A2B8;
+    margin: -4px;
+    border-radius: 5px;
+    height: 100px;
+}
+#user{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    border-radius: 50%;
+}
+#map{
+    height: 19px;
+    width: 11px;
+}
+#gear{
+    height: 14px;
+    width: 14px;
+}
+.info1{
+    margin-left: 25px;
+    position: absolute;
+    top: 150px;
+}
+.info1 h1, .info1 h2, .info1 h3{
+    margin: 10px;
+}
+
+.header-dark {
+    background-color: #333333;
+    margin: -4px;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.header-dark h1{
+    color: white;
+    font-size: 18px;
+}
+.info2{
+    margin-left: 25px;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.info2 h2 {
+    margin-top: 10px;
+}
+
+.circle{
+    background-color: #cccccc;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+#black{
+    color: black;
+}
+
+.info3{
+    margin: 20px 25px;
+    width: 250px;
+    /* position: absolute; */
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todd {
+    /* position: absolute; */
+    /* margin-top: 1px; */
+    display: flex;
+    align-items: center;
+}
+
+.todd h2 {
+    padding-left: 10px;
+}
+
+.info3 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.yesno img{
+    padding: 0px 1px;
+}
+
+#border{
+    /* border: 1px solid gray; */
+    height: 20px;
+    margin: -4px;
+    padding: 5px 25px;
+    width: auto;
+    font-size: 18px;
+    border: 4px solid #cccccc;;
+    background-color: #fff;
+}
